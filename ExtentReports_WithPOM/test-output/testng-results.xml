@@ -1,29 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-29T17:50:05 IST" name="Suite" finished-at="2021-10-29T17:50:54 IST" duration-ms="48622">
+  <suite started-at="2022-01-06T23:11:32 IST" name="Default suite" finished-at="2022-01-06T23:11:34 IST" duration-ms="1442">
     <groups>
     </groups>
-    <test started-at="2021-10-29T17:50:05 IST" name="Test" finished-at="2021-10-29T17:50:54 IST" duration-ms="48622">
-      <class name="testCases.LoginTestCase">
-        <test-method signature="login()[pri:0, instance:testCases.LoginTestCase@2b662a77]" started-at="2021-10-29T17:50:38 IST" name="login" finished-at="2021-10-29T17:50:54 IST" duration-ms="15953" status="PASS">
+    <test started-at="2022-01-06T23:11:32 IST" name="Default test" finished-at="2022-01-06T23:11:34 IST" duration-ms="1442">
+      <class name="softwareTestingMaterial.ExtentReportsClass">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:32 IST" name="startReport" finished-at="2022-01-06T23:11:32 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testCases.LoginTestCase -->
-      <class name="testCases.UpdateProfile">
-        <test-method signature="updateProfile()[pri:0, instance:testCases.UpdateProfile@57a3af25]" started-at="2021-10-29T17:50:18 IST" name="updateProfile" finished-at="2021-10-29T17:50:38 IST" duration-ms="19758" status="PASS">
+        </test-method> <!-- startReport -->
+        <test-method signature="failTest()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="failTest" finished-at="2022-01-06T23:11:33 IST" duration-ms="454" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: D:\Selenium\Drivers\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: D:\Selenium\Drivers\geckodriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:315)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:236)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:193)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:171)
+at softwareTestingMaterial.ExtentReportsClass.failTest(ExtentReportsClass.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateProfile -->
-      </class> <!-- testCases.UpdateProfile -->
-      <class name="pageFactoryWithoutAnnotations.LoginWithoutFindBy">
-        <test-method signature="login()[pri:0, instance:pageFactoryWithoutAnnotations.LoginWithoutFindBy@38c6f217]" started-at="2021-10-29T17:50:05 IST" name="login" finished-at="2021-10-29T17:50:18 IST" duration-ms="12829" status="PASS">
+        </test-method> <!-- failTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="getResult" finished-at="2022-01-06T23:11:33 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failTest status=FAILURE method=ExtentReportsClass.failTest()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- pageFactoryWithoutAnnotations.LoginWithoutFindBy -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getResult -->
+        <test-method signature="passTest()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="passTest" finished-at="2022-01-06T23:11:33 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="getResult" finished-at="2022-01-06T23:11:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=ExtentReportsClass.passTest()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="skipTest()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="skipTest" finished-at="2022-01-06T23:11:33 IST" duration-ms="6" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+at softwareTestingMaterial.ExtentReportsClass.skipTest(ExtentReportsClass.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="getResult" finished-at="2022-01-06T23:11:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=skipTest status=SKIP method=ExtentReportsClass.skipTest()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:softwareTestingMaterial.ExtentReportsClass@48f2bd5b]" started-at="2022-01-06T23:11:33 IST" name="endReport" finished-at="2022-01-06T23:11:34 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- softwareTestingMaterial.ExtentReportsClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
