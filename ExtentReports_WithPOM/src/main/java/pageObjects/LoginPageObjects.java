@@ -1,10 +1,7 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 
 public class LoginPageObjects {
 /*
@@ -31,7 +28,6 @@ public class LoginPageObjects {
 		return driver.findElement(By.xpath("//*[@id='loginfrm']/button"));
 	}
 	*/
-	
 	
 	
 	@FindBy(name="email")

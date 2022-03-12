@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.UpdateProfile">
+      <class name="pageFactoryWithoutAnnotations.LoginWithoutFindBy">
         <methods>
-          <include name="updateProfile"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- testCases.UpdateProfile -->
+      </class> <!-- pageFactoryWithoutAnnotations.LoginWithoutFindBy -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

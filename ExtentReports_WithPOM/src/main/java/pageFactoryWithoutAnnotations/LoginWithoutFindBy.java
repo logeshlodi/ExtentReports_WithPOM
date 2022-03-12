@@ -2,7 +2,7 @@ package pageFactoryWithoutAnnotations;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -15,9 +15,10 @@ public class LoginWithoutFindBy {
 	@Test
 	public void login(){
 				
-		System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
+		//System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
 		
-		WebDriver driver= new ChromeDriver();
+		WebDriver driver= new FirefoxDriver();
+		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials");
 		
 		PageFactory.initElements(driver, LoginWithoutFindBy.class);

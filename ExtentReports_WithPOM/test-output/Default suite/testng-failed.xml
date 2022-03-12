@@ -7,8 +7,8 @@
         <methods>
           <include name="methodLevelSetup"/>
           <include name="classLevelSetup"/>
+          <include name="invalidLoginTest_EmptyUserEmptyPassword" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="invalidLoginTest_InvalidUserNameInvalidPassword"/>
         </methods>
       </class> <!-- tests.LoginTests -->
     </classes>

@@ -1,6 +1,6 @@
-[1635510038.944][INFO]: Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 36573
-[1635510038.944][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1635510039.129][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND InitSession {
+[1646895099.766][INFO]: Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 46744
+[1646895099.766][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1646895100.468][INFO]: [3186b31ddac9697c727e8a2c956b3e20] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,7 +18,7 @@
       }
    }
 }
-[1635510039.135][INFO]: Populating Preferences file: {
+[1646895100.477][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -71,7 +71,7 @@
       "enabled": false
    }
 }
-[1635510039.136][INFO]: Populating Local State file: {
+[1646895100.478][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -81,110 +81,7 @@
       }
    }
 }
-[1635510039.140][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\HP\AppData\Local\Temp\scoped_dir15096_831670811" data:,
-[1635510042.688][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1635510042.696][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE InitSession {
-   "capabilities": {
-      "acceptInsecureCerts": false,
-      "browserName": "chrome",
-      "browserVersion": "95.0.4638.54",
-      "chrome": {
-         "chromedriverVersion": "95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871})",
-         "userDataDir": "C:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir15096_831670811"
-      },
-      "goog:chromeOptions": {
-         "debuggerAddress": "localhost:55757"
-      },
-      "networkConnectionEnabled": false,
-      "pageLoadStrategy": "normal",
-      "platformName": "windows",
-      "proxy": {
-
-      },
-      "setWindowRect": true,
-      "strictFileInteractability": false,
-      "timeouts": {
-         "implicit": 0,
-         "pageLoad": 300000,
-         "script": 30000
-      },
-      "unhandledPromptBehavior": "dismiss and notify",
-      "webauthn:extension:credBlob": true,
-      "webauthn:extension:largeBlob": true,
-      "webauthn:virtualAuthenticators": true
-   },
-   "sessionId": "aeffc9716d0b24293dc7efbef2d17746"
-}
-[1635510042.729][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND Navigate {
-   "url": "https://www.phptravels.net/login"
-}
-[1635510042.730][INFO]: Waiting for pending navigations...
-[1635510042.732][INFO]: Done waiting for pending navigations. Status: ok
-[1635510044.473][INFO]: Waiting for pending navigations...
-[1635510047.550][INFO]: Done waiting for pending navigations. Status: ok
-[1635510047.550][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE Navigate
-[1635510050.570][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND FindElement {
-   "using": "css selector",
-   "value": "*[name='email']"
-}
-[1635510050.570][INFO]: Waiting for pending navigations...
-[1635510050.571][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.582][INFO]: Waiting for pending navigations...
-[1635510050.582][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.582][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "cf1ac027-f80e-41ae-a621-3ffce39595b1"
-}
-[1635510050.589][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND TypeElement {
-   "id": "cf1ac027-f80e-41ae-a621-3ffce39595b1",
-   "text": "user@phptravels.com",
-   "value": [ "u", "s", "e", "r", "@", "p", "h", "p", "t", "r", "a", "v", "e", "l", "s", ".", "c", "o", "m" ]
-}
-[1635510050.589][INFO]: Waiting for pending navigations...
-[1635510050.590][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.691][INFO]: Waiting for pending navigations...
-[1635510050.695][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.695][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE TypeElement
-[1635510050.700][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND FindElement {
-   "using": "css selector",
-   "value": "*[name='password']"
-}
-[1635510050.700][INFO]: Waiting for pending navigations...
-[1635510050.701][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.716][INFO]: Waiting for pending navigations...
-[1635510050.717][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.717][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "772a7420-29a3-4515-8a4d-de64d5fd5a0d"
-}
-[1635510050.722][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND TypeElement {
-   "id": "772a7420-29a3-4515-8a4d-de64d5fd5a0d",
-   "text": "demouser",
-   "value": [ "d", "e", "m", "o", "u", "s", "e", "r" ]
-}
-[1635510050.722][INFO]: Waiting for pending navigations...
-[1635510050.722][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.808][INFO]: Waiting for pending navigations...
-[1635510050.810][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.810][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE TypeElement
-[1635510050.815][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//*[@type='submit'][1]"
-}
-[1635510050.815][INFO]: Waiting for pending navigations...
-[1635510050.815][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.829][INFO]: Waiting for pending navigations...
-[1635510050.833][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.834][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "82a31f4c-c871-4f84-a422-fd593fa87a21"
-}
-[1635510050.838][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND ClickElement {
-   "id": "82a31f4c-c871-4f84-a422-fd593fa87a21"
-}
-[1635510050.838][INFO]: Waiting for pending navigations...
-[1635510050.839][INFO]: Done waiting for pending navigations. Status: ok
-[1635510050.923][INFO]: Waiting for pending navigations...
-[1635510053.471][INFO]: Done waiting for pending navigations. Status: ok
-[1635510053.471][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE ClickElement
-[1635510053.509][INFO]: [aeffc9716d0b24293dc7efbef2d17746] COMMAND Quit {
-
-}
-[1635510053.682][INFO]: [aeffc9716d0b24293dc7efbef2d17746] RESPONSE Quit
+[1646895100.482][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\HP\AppData\Local\Temp\scoped_dir10372_467999701" data:,
+[1646895101.519][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[1646895101.828][INFO]: [3186b31ddac9697c727e8a2c956b3e20] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 95
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe

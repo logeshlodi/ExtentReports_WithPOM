@@ -7,15 +7,15 @@
   </listeners>
   <test thread-count="5" name="LoginTest(failed)">
     <classes>
-      <class name="tests.LoginTests">
+      <class name="tests.LoginTest">
         <methods>
           <include name="methodLevelSetup"/>
           <include name="classLevelSetup"/>
           <include name="invalidLoginTest_EmptyUserEmptyPassword"/>
-          <include name="teardown"/>
           <include name="invalidLoginTest_InvalidUserNameInvalidPassword"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- tests.LoginTests -->
+      </class> <!-- tests.LoginTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [N11 Test Suite] -->
